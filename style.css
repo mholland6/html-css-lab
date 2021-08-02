@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap);
+
+body {
+    font-family: "Open Sans";
+    background-color: #f9fafc;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #69696a;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: #69696a;
+}
+
+.button-links {
+    text-decoration: none;
+    color: #69696a;
+}
