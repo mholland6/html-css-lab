@@ -5,11 +5,37 @@ body {
     background-color: #f9fafc;
 }
 
-ul {
-    list-style: none;
+header {
+
 }
 
-.nav-links {
+h4 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 5px 0px;
+    margin-top: 0px;
+
+}
+
+nav {
+    display: block;
+}
+
+nav li {
+    padding-top: 5px;
+}
+
+nav a {
     text-decoration: none;
     color: #69696a;
 }
@@ -19,7 +45,15 @@ ul {
     color: #69696a;
 }
 
-.button-links {
+.button {
     text-decoration: none;
     color: #69696a;
+    min-width: 100%;
+ 
 }
+
+.button-display {
+    min-width: 100%;
+}
+
+
