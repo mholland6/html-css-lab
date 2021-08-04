@@ -142,7 +142,19 @@ footer {
     width: 50%;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
 
+header nav {
+    display: inline-block;
+    
+}
 }
 
 
@@ -154,11 +166,7 @@ footer {
 MEDIA QUERIES
 min-width: apply these styles when the size hits a specific breakpoint and larger.
 max-width: apply these styles when the size hits a specific breakpoint and smaller.
-
 Example:
-
-
-
 Use rgba(247, 136, 167, 0.6) for the largest circle.
 Use rgba(247, 193, 162, 0.7) for the medium sized circle.
 Use rgba(207, 130, 213, 0.6) for the smallest circle */
