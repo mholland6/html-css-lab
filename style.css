@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap);
 
 body {
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     background-color: #f9fafc;
 }
 
@@ -27,6 +27,11 @@ ul {
 
 }
 
+.paragraph-text {
+    border-left: 5px solid gray;
+    padding-left: 10px;
+}
+
 nav {
     display: block;
 }
@@ -40,20 +45,47 @@ nav a {
     color: #69696a;
 }
 
-.footer-links {
-    text-decoration: none;
-    color: #69696a;
+
+
+button {
+    background-color: black;
+    color: #fff;
+    border-radius: 30px;
+    display: block;
+    align-self: center;
+    width: 100%;
+    
 }
 
-.button {
-    text-decoration: none;
-    color: #69696a;
-    min-width: 100%;
- 
-}
+
 
 .button-display {
     min-width: 100%;
 }
 
+footer ul li {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    
+}
 
+footer a {
+    text-decoration: none;
+    color: #69696a;
+    padding-right: 2px;
+}
+
+footer {
+    background-color: rgba(247, 193, 162, 0.7);
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    padding: 2px;
+    
+}
